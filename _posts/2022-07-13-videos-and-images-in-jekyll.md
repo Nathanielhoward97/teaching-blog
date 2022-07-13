@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Videos and Images with Jekyll"
 date:   2022-07-13 10:40:30 -0400
 categories: jekyll update
 ---
 
-#Here's an example post for embedding video content and images form the web in jekyll.
+# Here's an example post for embedding video content and images form the web in jekyll.
 You can use simple html for the purposes of both video and images - markdown won't interfere with code that it recognizes as html with proper syntax.
 
 ### An example video
@@ -14,6 +14,8 @@ My cat loves to watch birds on my second monitor. Here's an embed code for a vid
 <iframe width="853" height="480" src="https://www.youtube.com/embed/xbs7FT7dXYc" title="Videos for Cats to Watch - 8 Hour Birds Bonanza - Cat TV Bird Watch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You can see there are several components to the code - some directions to set the video's frame height and width in pixels, as well as the video's source and title, along with permissions for youtube to play to the pages site.
+
+### Making an Image Directory
 
 What about an image? Like a video, an image needs a source - but unlike a video, markdown natively supports embedded images. To embed an image, all you need is to create a directory for assets in the same branch from which your pages site is hosted.
 Upload an image file to that directory or a subfolder within specifically for images. Since jekyll pulls from the same repo, the code you need to reference that image in your post is pretty simple - 
