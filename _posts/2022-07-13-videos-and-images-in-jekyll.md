@@ -5,7 +5,7 @@ date:   2022-07-13 10:40:30 -0400
 categories: jekyll update
 ---
 
-# Here's an example post for embedding video content and images form the web in jekyll.
+# Here's an example post for embedding video content and images from the web in jekyll.
 You can use simple html for the purposes of both video and images - markdown won't interfere with code that it recognizes as html with proper syntax.
 
 ### An example video
