@@ -15,6 +15,8 @@ My cat loves to watch birds on my second monitor. Here's an embed code for a vid
 
 You can see there are several components to the code - some directions to set the video's frame height and width in pixels, as well as the video's source and title, along with permissions for youtube to play to the pages site.
 
+Youtube and other video hosting sites often have a button on any video's page to allow you to copy the embed code. Depending on where you want to host video content for your blog, there may be difference in the particular permissions, but the basic syntax should be the same. 
+
 ### Making an Image Directory
 
 What about an image? Like a video, an image needs a source - but unlike a video, markdown natively supports embedded images. To embed an image, all you need is to create a directory for assets in the same branch from which your pages site is hosted.
