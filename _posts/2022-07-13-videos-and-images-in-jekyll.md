@@ -21,3 +21,6 @@ Youtube and other video hosting sites often have a button on any video's page to
 
 What about an image? Like a video, an image needs a source - but unlike a video, markdown natively supports embedded images. To embed an image, all you need is to create a directory for assets in the same branch from which your pages site is hosted.
 Upload an image file to that directory or a subfolder within specifically for images. Since jekyll pulls from the same repo, the code you need to reference that image in your post is pretty simple - 
+
+![Arculf Map of Jerusalem](/teaching-blog/assets/images/jerusalem-map-arculf.jpg)
+Looking spiffy. Markdown will support the conventional image file formats that html does, including .jpg and .png.
